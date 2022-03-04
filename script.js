@@ -88,6 +88,6 @@ function compartilhar(){
     + `\n - Velocidade Vento: ${veloVento} km/h`
     + `\n - Humidade: ${humidade}%`)
     
-    const url = `https://wa.me/${meuNumero}?text=` + encodeURIComponent(preMensagem);
+    const url = `https://wa.me/55${meuNumero}?text=` + encodeURIComponent(preMensagem);
     window.open(url,'_blank');
 }
