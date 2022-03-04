@@ -1,0 +1,194 @@
+*{
+    --var-de-alguma: frfrfr
+}
+
+body{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto';
+}
+
+header{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(128, 180, 163);
+    z-index: 10;
+}
+
+header p{
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+    color: #fff;
+}
+
+main{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 140px;
+    width: 600px;
+    height: 570px;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    background-color: #18a0d65e;
+}
+
+h1{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(128, 180, 163);
+    color: #fff;
+    text-shadow: 1px 1px 3px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal normal bold normal 24px/1.5 'Roboto';
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: cadetblue; */
+}
+
+section .max, section .min{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal normal bold normal 20px/1.5 'Roboto';
+}
+
+.temp-max-min{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    width: 100px;
+    height: 400px;
+    padding: 5px 5px 0px 5px;
+    background-color: 8dc7de;
+}
+.max{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(128, 180, 163);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgb(128, 180, 163);
+    color: #fff;
+    text-shadow: 1px 1px 3px black;
+}
+.min{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(128, 180, 163);
+    border-radius: 5px;
+    background-color: rgb(128, 180, 163);
+    color: #fff;
+    text-shadow: 1px 1px 3px black;
+}
+
+.clima-geral{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    width: 40%;
+    height: 400px;
+    padding: 5px 5px 5px 5px;
+}
+.geral{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.geral img{
+    width: 200px;
+    height: 200px;
+    outline: 3px solid rgb(116, 114, 114);
+    border-radius: 8px;
+}
+
+.vento-umidade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    width: 100px;
+    height: 400px;
+    padding: 5px 5px 0px 5px;
+}
+.vento{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(128, 180, 163);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgb(128, 180, 163);
+    color: #fff;
+    text-shadow: 1px 1px 3px black;
+}
+.umidade{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(128, 180, 163);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgb(128, 180, 163);
+    color: #fff;
+    text-shadow: 1px 1px 3px black;
+}
+
+.vento-umidade .vento, .vento-umidade .umidade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal normal bold normal 20px/1.5 'Roboto';
+}
+
+button{
+    height: 40px;
+    background-color: rgb(128, 180, 163);
+    color: #fff;
+    text-shadow: 1px 1px 3px black;
+    border-radius: 15px;
+    position: relative;
+    bottom: -50px;
+    border: none;
+    font-size: 20px;
+}
