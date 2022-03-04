@@ -13,15 +13,12 @@ function getPosition(callback){
     if ("geolocation" in navigator) {
         navigator.geolocation.getCurrentPosition(
             function (position) {
-                // console.log(position)
                 latitude = position.coords.latitude;
                 longitude = position.coords.longitude;
-                console.log(latitude);
-                console.log(longitude);
                 callback()
             },
             function (error) {
-                console.log(error)
+                console.log(error);
             })
     } else {
         alert("I'm sorry, but geolocation services are not supported by your browser.");
